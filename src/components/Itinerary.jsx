@@ -30,11 +30,11 @@ function Itinerary() {
     return (
         <section className="py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-6xl mx-auto">
-                <div className="flex flex-col lg:flex-row gap-8 items-start">
+                <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 items-start">
                     {/* Left - Text content */}
-                    <div className="lg:w-1/4 flex-shrink-0 pt-4">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-4">1 itinerary</h2>
-                        <p className="text-gray-600 leading-relaxed mb-6 text-sm">
+                    <div className="lg:w-1/4 flex-shrink-0 pt-0 lg:pt-4">
+                        <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2 lg:mb-4">1 itinerary</h2>
+                        <p className="text-gray-600 leading-relaxed mb-4 lg:mb-6 text-sm">
                             Get expertly curated itineraries that
                             help you organise all the 'things to do' in
                             an ideal time order
@@ -45,10 +45,10 @@ function Itinerary() {
                     </div>
 
                     {/* Right - Cards */}
-                    <div className="lg:w-3/4 flex gap-6 overflow-x-auto pb-4 scrollbar-hide">
+                    <div className="lg:w-3/4 flex gap-4 lg:gap-6 overflow-x-auto pb-4 scrollbar-hide w-full">
                         {/* Map Card */}
-                        <Link to="/map" className="flex-shrink-0 w-[300px] group">
-                            <div className="relative rounded-2xl overflow-hidden h-[380px] shadow-sm border border-gray-100 isolation-auto">
+                        <Link to="/map" className="flex-shrink-0 w-[280px] lg:w-[300px] group">
+                            <div className="relative rounded-2xl overflow-hidden h-[340px] lg:h-[380px] shadow-sm border border-gray-100 isolation-auto">
                                 {/* Leaflet Map for focused Norway view */}
                                 <div className="h-full w-full pointer-events-none">
                                     <MapContainer

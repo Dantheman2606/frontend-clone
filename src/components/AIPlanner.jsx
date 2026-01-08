@@ -20,9 +20,9 @@ function AIPlanner() {
                     </div>
 
                     {/* Right - Chat widget */}
-                    <div className="lg:w-2/3">
-                        <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden max-w-xl">
-                            <div className="p-8">
+                    <div className="lg:w-2/3 w-full">
+                        <div className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden max-w-xl mx-auto lg:mx-0">
+                            <div className="p-4 sm:p-6 lg:p-8">
                                 {/* Header */}
                                 <div className="flex items-center gap-4 mb-6">
                                     <div className="relative">

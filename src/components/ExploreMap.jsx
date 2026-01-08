@@ -89,12 +89,12 @@ function ExploreMap() {
                                 </div>
 
                                 {/* Photo thumbnails at bottom */}
-                                <div className="absolute bottom-0 left-0 right-0 p-4 z-[1000]">
-                                    <div className="flex gap-3 justify-center">
+                                <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4 z-[1000]">
+                                    <div className="flex gap-2 sm:gap-3 justify-start lg:justify-center overflow-x-auto pb-1 scrollbar-hide px-1">
                                         {thumbnails.map((thumb) => (
                                             <div
                                                 key={thumb.id}
-                                                className="w-12 h-12 rounded-lg overflow-hidden shadow-lg border-2 border-white flex-shrink-0 bg-gray-200"
+                                                className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg overflow-hidden shadow-lg border-2 border-white flex-shrink-0 bg-gray-200"
                                             >
                                                 <img
                                                     src={thumb.image}

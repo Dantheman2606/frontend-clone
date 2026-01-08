@@ -62,11 +62,11 @@ function CreatorProfile() {
                             platforms.
                         </p>
 
-                        <div className="flex gap-4">
-                            <button className="px-8 py-2.5 text-sm font-bold text-gray-900 bg-white border border-gray-900 rounded-xl hover:bg-gray-50 transition-colors">
+                        <div className="flex gap-3 sm:gap-4">
+                            <button className="flex-1 sm:flex-none px-4 sm:px-8 py-2.5 text-sm font-bold text-gray-900 bg-white border border-gray-900 rounded-xl hover:bg-gray-50 transition-colors whitespace-nowrap">
                                 Message
                             </button>
-                            <button className="px-8 py-2.5 text-sm font-bold text-gray-900 bg-white border border-gray-900 rounded-xl hover:bg-gray-50 transition-colors">
+                            <button className="flex-1 sm:flex-none px-4 sm:px-8 py-2.5 text-sm font-bold text-gray-900 bg-white border border-gray-900 rounded-xl hover:bg-gray-50 transition-colors whitespace-nowrap">
                                 Storefront
                             </button>
                         </div>
